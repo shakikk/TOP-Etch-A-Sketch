@@ -46,8 +46,6 @@ function promptGridSize(){
             removeGrid();
             setSize(size);
             incrementOpacity();
-            promptGridSize();
-            getEtchEffect();
         }
         else{
             alert("Grid size must be between 1 and 100!")
